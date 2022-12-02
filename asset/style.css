@@ -1,0 +1,260 @@
+* {
+  /* margin: 0;
+    padding: 0; */
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* nav {
+    position: fixed;
+} */
+header {
+  background-image: url(/asset/header.jpg);
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+}
+.menu {
+  display: flex;
+  padding: 0;
+  justify-content: flex-end;
+}
+/* suppression des puces */
+.menu li {
+  list-style-type: none;
+}
+.menu a {
+  display: block;
+  min-width: 120px;
+  text-align: right;
+  text-decoration: none;
+  color: white;
+}
+.menu a:hover {
+  color: purple;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 50px;
+}
+header button {
+  background-color: purple;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  border: 0;
+}
+.aboutme {
+  display: flex;
+  margin: 100px;
+}
+.box1 img {
+  height: 300px;
+}
+.aboutme button {
+  border-radius: 20px;
+}
+.box2 {
+  padding: 50px;
+}
+h2 {
+  color: purple;
+}
+.cards1 {
+  display: flex;
+}
+.cards1 img {
+  height: 50px;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  border: 1px solid rgb(229, 229, 229);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 2px;
+}
+h3 {
+  color: purple;
+}
+.service h2 {
+  text-align: center;
+}
+.service p {
+  text-align: center;
+}
+.cards2 {
+  display: flex;
+  justify-content: center;
+}
+
+.card1_2 {
+  background-image: url(/asset/folio-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 50px;
+  padding: 100px 50px 100px 50px;
+  transition: all 4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.card1_2:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+  height: 100%;
+  opacity: 0.3;
+  background-size: auto;
+}
+
+.card2_2 {
+  background-image: url(/asset/folio-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 50px;
+  padding: 100px 50px 100px 50px;
+  transition: all 4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+.card2_2:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+  height: 100%;
+  opacity: 0.3;
+  background-size: auto;
+}
+.card3_2 {
+  background-image: url(/asset/folio-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 50px;
+  padding: 100px 50px 100px 50px;
+  transition: all 4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+.card3_2:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+  height: 100%;
+  opacity: 0.3;
+  background-size: auto;
+}
+.portfolio p {
+  text-align: center;
+}
+.portfolio h2 {
+  text-align: center;
+}
+.cards3 img {
+  height: 50px;
+}
+.cards3 {
+  display: flex;
+  justify-content: center;
+}
+.mypricing p {
+  text-align: center;
+}
+.mypricing h2 {
+  text-align: center;
+}
+.mypricing button {color: white;
+  background-color: purple;
+}
+.card1_3,
+.card2_3,
+.card3_3 {
+  border: 1px solid rgb(229, 229, 229);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 2px;
+}
+.work {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+}
+.work p {
+  color: white;
+}
+.box4 button {
+  padding: 10px;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+.testmonial p {
+  text-align: center;
+}
+.card1_4 p , .card2_4 p{
+  text-align: left;
+}
+.testmonial h2 {
+  text-align: center;
+}
+.cards4 {
+  display: flex;
+}
+.card1_4 {
+  margin: 100px;
+  border: 1px solid rgb(229, 229, 229);
+}
+.card1_4 img {
+  border-radius: 500px;
+  width: 100px;
+}
+.card2_4 {
+  margin: 100px;
+  border: 1px solid rgb(229, 229, 229);
+}
+.card2_4 img {
+  border-radius: 500px;
+  width: 100px;
+}
+.blog p{
+  text-align: center;
+}
+.blog h2 {
+  text-align: center;
+}
+h4 {
+  color: purple;
+}
+.container1 {
+  display: flex;
+  border: 1px solid rgb(229, 229, 229);
+  margin: 100px;
+  
+}
+.container2 {
+  display: flex;
+  border: 1px solid rgb(229, 229, 229);
+  margin: 100px;
+ 
+}
+.box2 p {
+  text-align: left;
+}
+
+.contactme p , .contactme h2{
+  text-align: center;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+.write {
+  display: flex;
+  justify-content: center;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
