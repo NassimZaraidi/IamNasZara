@@ -11,7 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>iamnaszara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>iamjohndoe</title>
   </head>
   <body>
     <header>
@@ -19,22 +22,22 @@
         <p>Meyawo</p>
         <ul class="menu">
           <li>
-            <a href="Home">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="About">About</a>
+            <a href="#aboutme">About</a>
           </li>
           <li>
-            <a href="Portfolio">Portfolio</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="Testmonial">Testmonial</a>
+            <a href="#testmonial">Testmonial</a>
           </li>
           <li>
-            <a href="Blog">Blog</a>
+            <a href="#blog">Blog</a>
           </li>
           <li>
-            <a href="Contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
             <a href="Components">Components</a>
@@ -44,17 +47,17 @@
       <div class="intro">
         <h1>
           HI! <br />
-          I am Nas Zara
+          I am John Doe
         </h1>
         <p>FRONTEND WEB DESIGNER</p>
         <button>Visit My Works</button>
       </div>
     </header>
     <div class="aboutme">
-      <div class="box1"><img src="asset\xavatario.png" alt="man" /></div>
+      <div class="box1"><img src="asset\man.png" alt="man" /></div>
       <div class="box2">
         <p>Who Am I ?</p>
-        <h2>About Me</h2>
+        <h2 id="aboutme">About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
           aliquid ad provident aut fuga animi soluta quae eos non cupiditate
@@ -108,7 +111,7 @@
     </div>
     <div class="portfolio">
       <p>What I Did ?</p>
-      <h2>Portfolio</h2>
+      <h2 id="portfolio">Portfolio</h2>
       <div class="cards2">
         <div class="card1_2">
           <h3>Web Designing</h3>
@@ -195,31 +198,31 @@
     </div>
     <div class="testmonial">
       <p>What Think Client About Me ?</p>
-      <h2>Testmonial</h2>
+      <h2 id="testmonial">Testmonial</h2>
       <div class="cards4">
         <div class="card1_4">
-          <img src="asset\avatar2.jpg" alt="avatar2" />
-          <p>
+          <div class="img"><img src="asset\avatar2.jpg" alt="avatar2" /></div>
+          <div class="p"><p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
             doloribus autem aperiam earum nostrum omnis blanditiis corporis
             perspiciatis adipisci nihil. <br />
-            Emily Reb
-          </p>
+            <span id="emilyreb">Emily Reb</span> 
+          </p></div>
         </div>
         <div class="card2_4">
-          <img src="asset\avatar3.jpg" alt="avatar3" />
-          <p>
+          <div class="img"><img src="asset\avatar3.jpg" alt="avatar3" /></div>
+          <div class="p"><p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
             doloribus autem aperiam earum nostrum omnis blanditiis corporis
             perspiciatis adipisci nihil. <br />
-            Emily Reb
-          </p>
+            <span id="emilyreb">Emily Reb</span> 
+          </p></div>
         </div>
       </div>
     </div>
     <div class="blog">
       <p>Recent Posts?</p>
-      <h2>Blog</h2>
+      <h2 id="blog">Blog</h2>
       <div class="container1">
         <div class="box1">
           <img src="asset\img-1.jpg" alt="img1" />
@@ -264,7 +267,7 @@
     </div>
     <div class="contactme">
       <p>How can you communicate?</p>
-      <h2>Contact Me</h2>
+      <h2 id="contact">Contact Me</h2>
       <div class="container2">
         <div class="name">
           <form action="">
@@ -278,7 +281,7 @@
           </form>
         </div>
         <div class="mail">
-          <form action="">
+          <form >
             <input
               type="text"
               name="mail"

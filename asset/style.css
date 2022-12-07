@@ -4,17 +4,24 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 /* nav {
     position: fixed;
 } */
 header {
   background-image: url(/asset/header.jpg);
+  
 
   background-repeat: no-repeat;
 
   background-position: center;
   background-size: cover;
-  height: 450px;
+  height: 600px;
+}
+
+nav p {
+  color: white;
+  font-size: 30px;
 }
 .menu {
   display: flex;
@@ -40,8 +47,15 @@ header {
   flex-direction: column;
   align-items: center;
 }
+.intro p {
+  font-size: 25px;
+  margin-top: -50px;
+}
 h1 {
   font-size: 50px;
+  font-family: "Nerko One", cursive;
+  font-size: 75px;
+  color: rgb(79, 79, 79);
 }
 header button {
   background-color: purple;
@@ -49,6 +63,7 @@ header button {
   padding: 10px;
   color: white;
   border: 0;
+  cursor: pointer;
 }
 .aboutme {
   display: flex;
@@ -63,6 +78,11 @@ header button {
 .box2 {
   padding: 50px;
 }
+.box2 button:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
 h2 {
   color: purple;
 }
@@ -76,11 +96,43 @@ h2 {
 .card2,
 .card3,
 .card4 {
-  border: 1px solid rgb(229, 229, 229);
+  border: 1px transparent rgb(229, 229, 229);
   text-align: center;
   padding: 20px;
   margin: 20px;
   border-radius: 2px;
+}
+.card1 {
+  color: transparent;
+}
+.card1:hover {
+  color: black;
+  transform: translateY(-20px);
+  transition-duration: 1s;
+}
+.card2 {
+  color: transparent;
+}
+.card2:hover {
+  color: black;
+  transform: translateY(-20px);
+  transition-duration: 1s;
+}
+.card3 {
+  color: transparent;
+}
+.card3:hover {
+  color: black;
+  transform: translateY(-20px);
+  transition-duration: 1s;
+}
+.card4 {
+  color: transparent;
+}
+.card4:hover {
+  color: black;
+  transform: translateY(-20px);
+  transition-duration: 1s;
 }
 h3 {
   color: purple;
@@ -165,18 +217,38 @@ h3 {
 .mypricing h2 {
   text-align: center;
 }
-.mypricing button {color: white;
+.mypricing button {
+  color: white;
   background-color: purple;
 }
 .card1_3,
 .card2_3,
 .card3_3 {
-  border: 1px solid rgb(229, 229, 229);
+  border: 1px transparent rgb(229, 229, 229);
   text-align: center;
   padding: 20px;
   margin: 20px;
   border-radius: 2px;
 }
+.card1_3 button:hover {
+  cursor: pointer;
+}
+.card1_3:hover {
+  transform: translateY(-10px);
+}
+.card2_3:hover {
+  transform: translateY(-10px);
+}
+.card2_3 button:hover {
+  cursor: pointer;
+}
+.card3_3:hover {
+  transform: translateY(-10px);
+}
+.card3_3 button:hover {
+  cursor: pointer;
+}
+
 .work {
   display: flex;
   justify-content: center;
@@ -190,10 +262,14 @@ h3 {
   margin-left: 500px;
   margin-top: 20px;
 }
+.box4 button:hover {
+  cursor: pointer;
+}
 .testmonial p {
   text-align: center;
 }
-.card1_4 p , .card2_4 p{
+.card1_4 p,
+.card2_4 p {
   text-align: left;
 }
 .testmonial h2 {
@@ -204,7 +280,8 @@ h3 {
 }
 .card1_4 {
   margin: 100px;
-  border: 1px solid rgb(229, 229, 229);
+  border: 1px transparent rgb(229, 229, 229);
+  display: flex;
 }
 .card1_4 img {
   border-radius: 500px;
@@ -212,13 +289,18 @@ h3 {
 }
 .card2_4 {
   margin: 100px;
-  border: 1px solid rgb(229, 229, 229);
+  border: 1px transparent rgb(229, 229, 229);
+  display: flex;
 }
 .card2_4 img {
   border-radius: 500px;
   width: 100px;
 }
-.blog p{
+#emilyreb {
+  color: purple;
+  font-weight: bold;
+}
+.blog p {
   text-align: center;
 }
 .blog h2 {
@@ -229,21 +311,20 @@ h4 {
 }
 .container1 {
   display: flex;
-  border: 1px solid rgb(229, 229, 229);
+  border: 1px transparent rgb(229, 229, 229);
   margin: 100px;
-  
 }
 .container2 {
   display: flex;
-  border: 1px solid rgb(229, 229, 229);
+  border: 1px transparent rgb(229, 229, 229);
   margin: 100px;
- 
 }
 .box2 p {
   text-align: left;
 }
 
-.contactme p , .contactme h2{
+.contactme p,
+.contactme h2 {
   text-align: center;
 }
 .container2 {
